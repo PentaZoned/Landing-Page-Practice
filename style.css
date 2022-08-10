@@ -1,0 +1,28 @@
+:root {
+    --hero_footer_background: #1F2937;
+}
+
+header {
+    background-color: var(--hero_footer_background);
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+nav a {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--hero_footer_background);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: stretch;
+    gap: 750px;
+}
