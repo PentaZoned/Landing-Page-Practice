@@ -31,6 +31,15 @@ footer {
     padding-bottom: 30px;
 }
 
+figure {
+    width: 160px;
+}
+
+figure div {
+    text-align: center;
+}
+
+/* Class Selectors */
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -67,4 +76,22 @@ footer {
     padding: 10px 25px;
     border: 0;
     border-radius: 10px;
+}
+
+.section-padding {
+    padding: 25px 400px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.image-and-caption {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-styling {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
 }
